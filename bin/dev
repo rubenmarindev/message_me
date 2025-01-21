@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Exit immediately if a command exits with a non-zero status
+set -e
+
+# Run Foreman to manage multiple processes
+exec foreman start -f Procfile.dev
